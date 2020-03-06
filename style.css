@@ -1,0 +1,66 @@
+.nav-item{
+    padding-right: 20px;
+}
+.carousel-indicators li{
+    background-color: grey;
+    width: 16px;
+    height: 10px;
+    border-radius:6px;
+    margin-right: 8px;
+    /* width: 48px;
+    height: 48px;
+    margin: 10px;
+    background-color: #ffff99; */
+    
+}
+.carousel{
+    height: 500px;
+}
+.banner{
+    background-image: url("images/rsz_1best_products.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    /* height: 550px;
+    padding:100px 0px; */
+    /* padding: 100px; */
+    /* background-origin: padding-box; */
+
+    /* background-size: cover; */
+}
+.bg-pic{
+   /* height: 50px; */
+   /* padding-bottom: 50px; */
+   margin-bottom: 50px;
+   margin-left: 0px;
+}
+/* .col-md-4 p{
+    text-align: justify;
+}
+.col-md-2{
+    width: 50px;
+    height: 30px;
+    margin-bottom: 300px;
+    padding:100px 10px;
+} */
+
+.col-md-5{
+    width: 200px;
+}
+.buy-now-btn{
+    background-color: black;
+    color: white;
+    padding: 10px 15px 10px 10px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 15px;
+}
+.carousel-indicators .active{
+    /* width: 48px;
+    height: 48px;
+    margin: 10px; */
+    background-color:gold;
+    width: 40px;
+    border-radius: 6px;
+    opacity: 1;
+    cursor: pointer;
+}
