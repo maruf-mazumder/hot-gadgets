@@ -37,6 +37,7 @@
     margin-top: 0px;
     margin-bottom: 16px;
 }
+
 .card-footer{
     background-color: white;
     border-top: none;
@@ -51,6 +52,10 @@
 .mini{
     color: gold;
     font-weight: 900;
+    
+}
+.cat a:hover{  
+    color: gold;
 }
 .card{
     border: none;
@@ -66,3 +71,151 @@
 #carouselExampleIndicators{
     margin-bottom: 90px;
 }
+.cat a {
+    text-decoration: none;
+}
+.cat-border{
+    border-style: solid;
+    border-width: 0 0 5px 0;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    width: 8%;
+    margin: auto;
+    border-image: linear-gradient(45deg, rgb(255, 125, 3), rgb(250,224,66)) 1;
+    margin-bottom: 5%;
+}
+
+.catagory-bag{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 5px;
+
+    padding: 60px;
+    margin-top: 120px;
+    box-shadow: 0px 5px 20px lightgrey;
+    /* margin-bottom: 120px;
+    margin-top: 120px; */
+}
+
+.category-shoe-beauty {
+    
+    margin-bottom: 120px;
+    margin-top: 120px;
+    
+    border-top-left-radius: 25px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 25px;
+    box-shadow: 0px 5px 20px lightgrey;
+    padding: 60px;
+    height: 80%;
+}
+.full {
+    width: 100%;    
+}
+.gap {
+	height: 30px;
+	width: 100%;
+	clear: both;
+	display: block;
+}
+.footer {
+	background: #002147;
+	height: auto;
+	padding-bottom: 30px;
+	position: relative;
+	width: 100%;
+	border-bottom: 1px solid #CCCCCC;
+	border-top: 1px solid #DDDDDD;
+}
+.footer p {
+	margin: 0;
+}
+.footer img {
+	max-width: 100%;
+}
+.footer h3 {
+	color: white;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 27px;
+	padding: 40px 0 0px;
+	text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+.footer h4 {
+	color: white;
+	font-size: 2em;
+	font-weight: 600;
+	line-height: 38px;
+	padding: 40px 0 10px;
+	font-family: cursive;
+  font-weight: lighter
+}
+
+.footer ul {
+	font-size: 13px;
+	list-style-type: none;
+	margin-left: 0;
+	padding-left: 0;
+	margin-top: 0px;
+	color: #7F8C8D;
+  padding: 0 0 8px 0;
+}
+
+.email{
+  border-bottom: 3px solid rgb(30, 109, 34);
+}
+.footer ul li a {
+	padding: 0 0 12px 0;
+	display: block;
+}
+.footer a {
+	color: white;
+  font-weight: lighter;
+}
+
+.footer p {
+	color: white;
+  font-weight: lighter;
+  /* font-size:  */
+}
+
+.footer a:hover {
+	text-decoration:none;
+  font-weight: bold;
+}
+.supportLi h4 {
+	font-size: 20px;
+	font-weight: lighter;
+	line-height: normal;
+	margin-bottom: 0 !important;
+	padding-bottom: 0;
+}
+
+.bg-gray {
+	background-image: -moz-linear-gradient(center bottom, #BBBBBB 0%, #F0F0F0 100%);
+	box-shadow: 0 1px 0 #B4B3B3;
+}
+
+
+.footer a {
+	color: #78828D
+}
+
+.footer-bottom {
+  margin-top: 2em;
+	border-top: 1px solid #DDDDDD;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+.footer-bottom p.pull-left {
+	padding-top: 6px;
+  font-size: 0.75em
+}
+.logo{
+    margin-top: 80px;
+}
+
